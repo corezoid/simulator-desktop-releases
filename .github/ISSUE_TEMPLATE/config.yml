@@ -1,0 +1,14 @@
+# Issues are not tracked in the release repository: it distributes builds, and an
+# issue opened here would be read by nobody. Everything is routed to where it is
+# actually answered.
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and bug reports
+    url: https://github.com/corezoid/simulator-desktop-releases/blob/main/SUPPORT.md
+    about: Where support actually happens, and what to include in a report.
+  - name: Security vulnerabilities
+    url: https://github.com/corezoid/simulator-desktop-releases/blob/main/SECURITY.md
+    about: Report privately by email — never in a public issue or a support chat.
+  - name: Installing and system requirements
+    url: https://github.com/corezoid/simulator-desktop-releases/blob/main/INSTALL.md
+    about: Per-platform install steps, requirements for the local platform, verifying a download.
