@@ -2,35 +2,49 @@
   "schema": 1,
   "platforms": {
     "linux-x64": {
-      "version": "0.12.7",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/v0.12.7/SimulatorCompany-0.12.7-linux-x64.deb",
-      "bytes": 87660816,
-      "sha256": "812db6260d0a058b4a0a03534b9d72b5846aa85a20e9163835391481fc16f396",
+      "version": "0.12.4",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/v0.12.4/SimulatorCompany-0.12.4-linux-x64.deb",
+      "bytes": 87635624,
+      "sha256": "87e25227a3f6c3e1706c07a0ffb79825c882876cbdc3bd79244c490915714896",
       "signature": null
     },
     "linux-arm64": {
-      "version": "0.12.7",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/v0.12.7/SimulatorCompany-0.12.7-linux-arm64.deb",
-      "bytes": 82723124,
-      "sha256": "cdb9af6d9e2fd7b0514dfe4d77c0808d5065ffc78bdb2cfc02936e0f89cb1034",
+      "version": "0.12.4",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/v0.12.4/SimulatorCompany-0.12.4-linux-arm64.deb",
+      "bytes": 82732068,
+      "sha256": "ae880d2cfc02e3fca4b14ac34f86cee40df9f84543451d368926662460878b27",
       "signature": null
     },
     "win32-arm64": {
-      "version": "0.12.7",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/v0.12.7/SimulatorCompany-Setup-0.12.7-win-arm64.exe",
-      "bytes": 117166080,
-      "sha256": "f7f20c34db7fddf029b1166f631cca390c60a38adc1ac464d266e33b28596fd9",
+      "version": "0.12.4",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/v0.12.4/SimulatorCompany-Setup-0.12.4-win-arm64.exe",
+      "bytes": 117164544,
+      "sha256": "fe98ae0b4363c22072fc1ce382580fb488a78a5c187edec41af229202cc658f9",
       "signature": null
     },
     "win32-x64": {
-      "version": "0.12.7",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/v0.12.7/SimulatorCompany-Setup-0.12.7-win-x64.exe",
-      "bytes": 115465216,
-      "sha256": "e9eb897493b2415bf11175ff76782bd6d436d47014af501fd1de5ed8dc122c92",
+      "version": "0.12.4",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/v0.12.4/SimulatorCompany-Setup-0.12.4-win-x64.exe",
+      "bytes": 115463680,
+      "sha256": "f80ad73eb96b8ce7a6af1095350ec20e2868e008df33ea2662b22d7d1ef81e09",
+      "signature": null
+    },
+    "darwin-arm64": {
+      "version": "0.12.4",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/v0.12.4/SimulatorCompany-0.12.4-mac-arm64.dmg",
+      "bytes": 108167490,
+      "sha256": "634b7ed5607c3d9135c6b2ad9ac10db7bed5df49ce15ef88a19ba81f3b99c1c4",
+      "signature": null
+    },
+    "darwin-x64": {
+      "version": "0.12.4",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/v0.12.4/SimulatorCompany-0.12.4-mac-x64.dmg",
+      "bytes": 109185546,
+      "sha256": "3c28e643db5510f4411afffd1f7b8ed07f3124110045b48eabce28aa94704d1f",
       "signature": null
     }
   },
   "latestVersion": "0.12.7",
-  "publishedAt": "2026-08-09T06:59:03Z",
+  "publishedAt": "2026-08-09T07:37:13Z",
   "notesUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/tag/v0.12.7"
 }
