@@ -33,6 +33,22 @@ substituted in transit between GitHub and you. The same values are produced by
 our release pipeline directly from the build artifacts, so a mismatch always
 means: do not run the file, and tell us.
 
+### The signature
+
+`SHA256SUMS` of every release is signed with the project's
+[Sigstore/cosign](https://docs.sigstore.dev/) key. The public key is
+[`cosign.pub`](cosign.pub) in this repository; the signature bundle is the
+`SHA256SUMS.sigstore.json` asset of the release.
+
+```sh
+cosign verify-blob --key cosign.pub \
+  --bundle SHA256SUMS.sigstore.json SHA256SUMS
+# Verified OK
+```
+
+A verified signature plus a matching checksum proves the file is exactly what
+we published.
+
 ### Torrents
 
 The `.torrent` assets pin the content by hash at the protocol level: a

@@ -75,6 +75,7 @@ releases here.
 |---|---|
 | **Installers** | Attached to each [release](https://github.com/corezoid/simulator-desktop-releases/releases) as assets |
 | **`SHA256SUMS`** | One per release: the SHA-256 of every asset in that release |
+| **`SHA256SUMS.sigstore.json`** | Sigstore signature of `SHA256SUMS`; verify against [`cosign.pub`](cosign.pub) |
 | **Torrents** | `.torrent` assets next to the installers they cover, with a webseed |
 | **`desktop-releases.json`** | Machine-readable manifest — see [docs/RELEASE_MANIFEST.md](docs/RELEASE_MANIFEST.md) |
 | **Release notes** | On every release, including anything that affects installing or updating |
