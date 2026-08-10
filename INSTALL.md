@@ -1,6 +1,8 @@
-<img src="assets/app-icon.png" alt="" width="72" align="right">
+<p align="center">
+  <img src="assets/app-icon.png" alt="" width="96">
+</p>
 
-# Installing Simulator.Company
+<h1 align="center">Installing Simulator.Company</h1>
 
 Download the installer for your platform from the
 [latest release](https://github.com/corezoid/simulator-desktop-releases/releases/latest)
