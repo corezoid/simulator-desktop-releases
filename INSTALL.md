@@ -1,3 +1,5 @@
+<img src="assets/app-icon.png" alt="" width="72" align="right">
+
 # Installing Simulator.Company
 
 Download the installer for your platform from the
@@ -15,19 +17,28 @@ the download first, see
 
 **For the local platform** (running Corezoid and Simulator on your own machine)
 the requirements are real, and the application checks them before it starts
-anything:
+anything. They depend on which of the two you install — Corezoid on its own is
+noticeably lighter than both together:
 
-| | Minimum |
-|---|---|
-| Memory | **6 GB free** for the platform, on top of what the rest of the machine uses |
-| Processor | **4 cores** available |
-| Disk | **30 GB free** — components, the cluster's data and its snapshots |
-| Virtualisation | Hardware virtualisation enabled (macOS: Apple Silicon or a VT-x capable Intel Mac; Windows: WSL2; Linux: native) |
-| Download | ~500 MB – 1.6 GB of components on the first start, depending on the version |
+| | Corezoid | Corezoid + Simulator |
+|---|---|---|
+| Memory | **4 GB free** | **6 GB free** |
+| Processor | **2 cores** | **4 cores** |
+| Disk | **20 GB free** | **30 GB free** |
+| Download, first start | **~1 GB** | **~1.6 GB** |
 
-The built-in check in *Downloads* reports each of these with the actual numbers
-for your machine. You can install and use the application without the local
-platform.
+Free memory means on top of what the rest of the machine already uses; the disk
+figure covers the components, the platform's data and its snapshots. Both
+variants also need hardware virtualisation enabled (macOS: Apple Silicon or a
+VT-x capable Intel Mac; Windows: WSL2; Linux: native).
+
+*Downloads → Local platform* offers Corezoid, Simulator and Full server as three
+tabs, each showing these figures for your machine, and the built-in check reports
+every requirement with the actual numbers. Adding Simulator to an installed
+Corezoid later downloads only the difference and enlarges the virtual machine,
+which restarts the platform once.
+
+You can install and use the application without the local platform at all.
 
 ---
 

@@ -1,6 +1,12 @@
-# Simulator.Company — desktop releases
+<p align="center">
+  <img src="assets/sc_logo_dark_2026.png" alt="Simulator.Company — digital twins for business. From API to KPI." width="33%">
+</p>
 
-[![Latest release](https://img.shields.io/github/v/release/corezoid/simulator-desktop-releases?label=latest%20release)](https://github.com/corezoid/simulator-desktop-releases/releases/latest)
+<h1 align="center">Simulator.Company — desktop releases</h1>
+
+<p align="center">
+  <a href="https://github.com/corezoid/simulator-desktop-releases/releases/latest"><img src="https://img.shields.io/github/v/release/corezoid/simulator-desktop-releases?label=latest%20release" alt="Latest release"></a>
+</p>
 
 Official public releases of the **Simulator.Company desktop application** by
 [Corezoid Inc.](https://corezoid.com)
