@@ -43,8 +43,22 @@ which restarts the platform once.
 You can install and use the application without the local platform at all.
 
 ---
+## 🍎 macOS
 
-## Linux
+macOS builds are released on their own cadence — take the newest macOS release
+from the [releases page](https://github.com/corezoid/simulator-desktop-releases/releases).
+
+
+## 🪟 Windows
+
+1. Download `SimulatorCompany-Setup-win-<arch>.exe`.
+2. Run it. The installer places the application in your user profile and starts
+   it; no administrator rights are required for the application itself.
+3. If the local platform is used, it runs inside **WSL2** — the installer does
+   not enable WSL2 for you.
+
+
+## 🐧 Linux
 
 1. Download the `.deb` (Debian/Ubuntu) or `.rpm` (Fedora/RHEL) for your
    architecture.
@@ -60,19 +74,6 @@ sudo dnf install ./SimulatorCompany-linux-x64.rpm     # Fedora/RHEL
 The Linux assets are also published as torrents — any BitTorrent client works,
 and the torrent carries a webseed so it completes even with no peers online.
 
-## Windows
-
-1. Download `SimulatorCompany-Setup-win-<arch>.exe`.
-2. Run it. The installer places the application in your user profile and starts
-   it; no administrator rights are required for the application itself.
-3. If the local platform is used, it runs inside **WSL2** — the installer does
-   not enable WSL2 for you.
-
-## macOS
-
-macOS builds are released on their own cadence — take the newest macOS release
-from the [releases page](https://github.com/corezoid/simulator-desktop-releases/releases).
-
 1. Download the `.dmg` for your processor (`arm64` for Apple Silicon, `x64` for
    Intel).
 2. Open it and drag the application into *Applications*.
@@ -82,7 +83,7 @@ from the [releases page](https://github.com/corezoid/simulator-desktop-releases/
 
 ---
 
-## Mobile
+## 📱 Mobile
 
 | | |
 |---|---|
