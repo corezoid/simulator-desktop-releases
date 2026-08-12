@@ -134,7 +134,14 @@ pre-release of the next one.
      Same rules as the blocks above: platform order macOS → Windows → Linux and
      the OS emoji in every heading. Empty until the first desktop-v* release; the
      script fails rather than guessing where to insert if these markers are gone. -->
-_No pre-release published yet._
+### 🍎 macOS — v0.12.8
+
+| Processor | Disk image |
+|---|---|
+| **Intel** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.8/SimulatorDesktop-0.12.8-mac-x64.dmg) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.8/SimulatorDesktop-0.12.8-mac-x64.dmg.torrent) |
+| **Apple Silicon** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.8/SimulatorDesktop-0.12.8-mac-arm64.dmg) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.8/SimulatorDesktop-0.12.8-mac-arm64.dmg.torrent) |
+
+Release notes and every checksum: [desktop-v0.12.8](https://github.com/corezoid/simulator-desktop-releases/releases/tag/desktop-v0.12.8).
 <!-- desktop-downloads:end -->
 
 ---
