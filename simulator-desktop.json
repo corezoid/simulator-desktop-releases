@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "channel": "prerelease",
+  "platforms": {
+    "win32-x64": {
+      "version": "0.12.8",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.8/SimulatorDesktop-Setup-0.12.8-win-x64.exe",
+      "bytes": 147209706,
+      "sha256": "0254ce73b734f4a3363c34c7d4a6eb35cfefe943902c90f835712d0e8d142f00",
+      "signature": null
+    },
+    "win32-arm64": {
+      "version": "0.12.8",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.8/SimulatorDesktop-Setup-0.12.8-win-arm64.exe",
+      "bytes": 144957237,
+      "sha256": "8bc1914d69120a8a65fda04f26334a13caf6ace69f4d6795266f1bdc7bb53b6a",
+      "signature": null
+    }
+  },
+  "latestVersion": "0.12.8",
+  "notesUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/tag/desktop-v0.12.8",
+  "publishedAt": "2026-08-12T18:54:56Z"
+}
