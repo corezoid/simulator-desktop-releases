@@ -103,3 +103,34 @@ assets are known-good — never before. The sequence and the checks are in the
 internal `RELEASING.md`; the invariant that matters to a consumer is that every
 URL in this file points at an asset that already exists and whose hash already
 matches.
+
+---
+
+## `simulator-desktop.json` — the next-generation application
+
+**Simulator Desktop**, the application that will succeed the current one, is
+published in this same repository under `desktop-v*` tags. Its manifest is a
+**separate file** of the same shape:
+
+```
+https://raw.githubusercontent.com/corezoid/simulator-desktop-releases/main/simulator-desktop.json
+```
+
+Why a second file rather than a key inside this one: `desktop-releases.json` is
+the contract the **current** application's updater reads. Anything written there
+is something the installed fleet may act on, so a pre-release of a different
+application has no business appearing in it — not even under a key the current
+updater is expected to ignore. Separate files make that impossible rather than
+merely unlikely.
+
+Differences from `desktop-releases.json`:
+
+| | |
+|---|---|
+| `channel` | `"prerelease"` while the application is in development. Consumers must not offer these builds as an upgrade from the current application. |
+| Tags | `desktop-v<version>`, always marked as GitHub pre-releases, never `latest`. |
+| Platform keys | The same `<platform>-<arch>` scheme. The Linux entry names the `.deb`; the `.rpm` and `.AppImage` of the same build are attached to the release next to it. |
+
+Everything else — the verification rules, the meaning of `bytes`/`sha256`, the
+`null` signature field, the "missing key is not an error" rule — is identical
+and is not restated here.
