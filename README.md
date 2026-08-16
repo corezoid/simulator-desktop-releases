@@ -35,6 +35,10 @@ download at full CDN speed even with no other peers online.
      OS emoji in every heading: that is part of the block's content, not decoration.
      The script fails rather than guessing where a table belongs if these markers are
      gone, so keep them even while the block is empty. -->
+<p align="center">
+  <img src="assets/desktop-app.png" alt="Simulator Desktop — the Events screen of a workspace" width="90%">
+</p>
+
 ### 🍎 macOS — v0.12.8
 
 | Processor | Disk image |
@@ -67,6 +71,13 @@ machine-readable per-platform answer for it. Installed copies keep updating from
 mirrored distribution point and neither depends on the other.
 
 ### 📱 Mobile applications
+
+<!-- Outside every generated block on purpose: the release script owns
+     desktop-downloads and nothing else, so this section is plain README text and
+     stays put. -->
+<p align="center">
+  <img src="assets/mobile-app.png" alt="Simulator.Company on iOS and Android" width="60%">
+</p>
 
 Simulator.Company is also available for phones and tablets:
 
