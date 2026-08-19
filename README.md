@@ -51,7 +51,7 @@ download at full CDN speed even with no other peers online.
 | Architecture | Installer |
 |---|---|
 | **x64** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.82/SimulatorDesktop-Setup-0.12.82-win-x64.exe) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.82/SimulatorDesktop-Setup-0.12.82-win-x64.exe.torrent) |
-| **arm64** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.82/SimulatorDesktop-Setup-0.12.82-win-arm64.exe) |
+| **arm64** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.82/SimulatorDesktop-Setup-0.12.82-win-arm64.exe) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.82/SimulatorDesktop-Setup-0.12.82-win-arm64.exe.torrent) |
 
 ### 🐧 Linux — v0.12.82
 
