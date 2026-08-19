@@ -17,17 +17,17 @@
       "signature": null
     },
     "linux-x64": {
-      "version": "0.12.8",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.8/SimulatorDesktop-0.12.8-linux-amd64.deb",
-      "bytes": 143930468,
-      "sha256": "6305e54d33274ce585de6deedd77ea339aa1dd59021e12b72609e46a57c0b669",
+      "version": "0.12.82",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.82/SimulatorDesktop-0.12.82-linux-amd64.deb",
+      "bytes": 144090588,
+      "sha256": "49bb21f0daf0b6f4b1529b589596fe76db885a5bcec8a90608ed09c149a5cbc9",
       "signature": null
     },
     "linux-arm64": {
-      "version": "0.12.8",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.8/SimulatorDesktop-0.12.8-linux-arm64.deb",
-      "bytes": 132879192,
-      "sha256": "8e52ede0f8fbfe97488853d82614efd6d1dfe01f74ef35d1ee5329123d6afc9f",
+      "version": "0.12.82",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.82/SimulatorDesktop-0.12.82-linux-arm64.deb",
+      "bytes": 133057970,
+      "sha256": "a10d83f15aeae683487d9e219e4b3cf73d2ac07344c3e42190b3abe70f6bca10",
       "signature": null
     },
     "darwin-x64": {
@@ -47,5 +47,5 @@
   },
   "latestVersion": "0.12.82",
   "notesUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/tag/desktop-v0.12.82",
-  "publishedAt": "2026-08-19T16:52:12Z"
+  "publishedAt": "2026-08-19T17:04:46Z"
 }
