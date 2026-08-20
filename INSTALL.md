@@ -5,11 +5,11 @@
 <h1 align="center">Installing Simulator.Company</h1>
 
 Download the installer for your platform from the
-[latest release](https://github.com/corezoid/simulator-desktop-releases/releases/latest)
-(or the [releases page](https://github.com/corezoid/simulator-desktop-releases/releases)
-for macOS builds), then follow the section for your operating system. To check
-the download first, see
-[Verifying a download](SECURITY.md#verifying-a-download).
+[releases page](https://github.com/corezoid/simulator-desktop-releases/releases) —
+look for the newest `v<version>` tag (this repository also hosts the separate
+Simulator Desktop pre-release, tagged `desktop-v<version>`, which is not this
+application) — then follow the section for your operating system. To check the
+download first, see [Verifying a download](SECURITY.md#verifying-a-download).
 
 ---
 

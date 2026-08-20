@@ -5,7 +5,7 @@
 <h1 align="center">Simulator.Company — desktop releases</h1>
 
 <p align="center">
-  <a href="https://github.com/corezoid/simulator-desktop-releases/releases/latest"><img src="https://img.shields.io/github/v/release/corezoid/simulator-desktop-releases?label=latest%20release" alt="Latest release"></a>
+  <a href="https://github.com/corezoid/simulator-desktop-releases/releases"><img src="https://img.shields.io/github/v/release/corezoid/simulator-desktop-releases?filter=v*&label=latest%20release" alt="Latest release"></a>
 </p>
 
 Official public releases of the **Simulator.Company desktop application** by
@@ -16,9 +16,12 @@ Official public releases of the **Simulator.Company desktop application** by
 > torrents, the release notes, the machine-readable release manifest, and the
 > licence notices for bundled third-party components.
 
-<!-- Not /releases/latest: Simulator Desktop is published as a pre-release, so
-     GitHub's "latest" resolves to the current application's newest stable tag. This
-     points at the table this repository actually maintains. -->
+<!-- Not a plain /releases/latest badge: that endpoint now resolves to Simulator
+     Desktop's pre-release, not this application's — Simulator Desktop needs it for a
+     stable, unversioned download link (see "Two applications, two tag namespaces"
+     below), and GitHub only offers that mechanism to whichever release carries the
+     flag. `filter=v*` keeps this badge honest by reading only this application's own
+     tag namespace, regardless of which release GitHub calls "latest" repo-wide. -->
 **[Downloads →](#downloads)**
 
 ---
@@ -137,8 +140,16 @@ recommended build for everyone. Its versions are named per platform in
 The current **Simulator.Company** application keeps `v<version>` tags and
 [`desktop-releases.json`](desktop-releases.json), untouched by any of the above. Two
 files rather than one so that nothing reading the current application's manifest is
-ever offered a pre-release of the next one, and two tag namespaces so that neither
-takes the *latest release* mark from the other.
+ever offered a pre-release of the next one.
+
+**Simulator Desktop's releases carry the repository-wide *latest release* mark**
+(`make_latest: true`), even while pre-release — the opposite of what used to be true
+here. Third-party integrations need one download link that survives a version bump,
+and GitHub only offers that through `/releases/latest/download/<name>`, which
+resolves to whichever release carries this flag; there is no way to grant that link
+without also granting the mark. Simulator.Company's own "latest release" badge above
+and its [INSTALL.md](INSTALL.md) link are therefore scoped to the `v*` tag namespace
+explicitly, rather than relying on the repository-wide mark.
 
 Numbering continues across both: the current application's last build is 0.12.7, so
 Simulator Desktop starts at 0.12.8. One number never means two different builds.
