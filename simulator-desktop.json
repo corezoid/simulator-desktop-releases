@@ -19,20 +19,20 @@
       "signature": null
     },
     "linux-x64": {
-      "version": "0.12.82",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.82/SimulatorDesktop-0.12.82-linux-amd64.deb",
-      "bytes": 144090588,
-      "sha256": "49bb21f0daf0b6f4b1529b589596fe76db885a5bcec8a90608ed09c149a5cbc9",
-      "signature": null,
-      "stableDownloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-linux-amd64.deb"
+      "version": "0.12.83",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.83/SimulatorDesktop-0.12.83-linux-amd64.deb",
+      "stableDownloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-linux-amd64.deb",
+      "bytes": 144090576,
+      "sha256": "f4018c20aa8025ced47c1ced27aec8f9188d06d5fee60ce01d60d7a9dd56516e",
+      "signature": null
     },
     "linux-arm64": {
-      "version": "0.12.82",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.82/SimulatorDesktop-0.12.82-linux-arm64.deb",
-      "bytes": 133057970,
-      "sha256": "a10d83f15aeae683487d9e219e4b3cf73d2ac07344c3e42190b3abe70f6bca10",
-      "signature": null,
-      "stableDownloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-linux-arm64.deb"
+      "version": "0.12.83",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.83/SimulatorDesktop-0.12.83-linux-arm64.deb",
+      "stableDownloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-linux-arm64.deb",
+      "bytes": 133067896,
+      "sha256": "289dd3924a41b53f308c7cc8b3a01ec5fd9df3803bc575faa04af2a41a36ba97",
+      "signature": null
     },
     "darwin-x64": {
       "version": "0.12.82",
@@ -53,5 +53,5 @@
   },
   "latestVersion": "0.12.83",
   "notesUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/tag/desktop-v0.12.83",
-  "publishedAt": "2026-08-21T17:43:42Z"
+  "publishedAt": "2026-08-21T17:48:21Z"
 }
