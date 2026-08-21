@@ -35,23 +35,23 @@
       "signature": null
     },
     "darwin-x64": {
-      "version": "0.12.82",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.82/SimulatorDesktop-0.12.82-mac-x64.dmg",
-      "bytes": 158169349,
-      "sha256": "acfd8a2c7b10dbb7fffdcb470894acae3eac2a8885a407a0eec9296b6586c0bc",
-      "signature": null,
-      "stableDownloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-mac-x64.dmg"
+      "version": "0.12.83",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.83/SimulatorDesktop-0.12.83-mac-x64.dmg",
+      "stableDownloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-mac-x64.dmg",
+      "bytes": 158115951,
+      "sha256": "66e26c934bc98fc5601f28bbfe30986401c763446867f59bb1ad33720394d983",
+      "signature": null
     },
     "darwin-arm64": {
-      "version": "0.12.82",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.82/SimulatorDesktop-0.12.82-mac-arm64.dmg",
-      "bytes": 148070491,
-      "sha256": "7f10422f2afda56094c573b2b69d673c9e5872fbe88ce764ebb642e47ed44ef6",
-      "signature": null,
-      "stableDownloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-mac-arm64.dmg"
+      "version": "0.12.83",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.83/SimulatorDesktop-0.12.83-mac-arm64.dmg",
+      "stableDownloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-mac-arm64.dmg",
+      "bytes": 148080798,
+      "sha256": "f9a647c3a1a7ea95879b51c65f69b3682dd846af34eb7cb8f2e90387ae785557",
+      "signature": null
     }
   },
   "latestVersion": "0.12.83",
   "notesUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/tag/desktop-v0.12.83",
-  "publishedAt": "2026-08-21T17:48:21Z"
+  "publishedAt": "2026-08-21T17:59:33Z"
 }
