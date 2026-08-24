@@ -19,19 +19,19 @@
       "signature": null
     },
     "linux-x64": {
-      "version": "0.12.83",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.83/SimulatorDesktop-0.12.83-linux-amd64.deb",
+      "version": "0.12.84",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.84/SimulatorDesktop-0.12.84-linux-amd64.deb",
       "stableDownloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-linux-amd64.deb",
-      "bytes": 144090576,
-      "sha256": "f4018c20aa8025ced47c1ced27aec8f9188d06d5fee60ce01d60d7a9dd56516e",
+      "bytes": 145389402,
+      "sha256": "f74aa0407d98b1160fe320b82038635a1392610fad8f0011755d957a1e844050",
       "signature": null
     },
     "linux-arm64": {
-      "version": "0.12.83",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.83/SimulatorDesktop-0.12.83-linux-arm64.deb",
+      "version": "0.12.84",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.84/SimulatorDesktop-0.12.84-linux-arm64.deb",
       "stableDownloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-linux-arm64.deb",
-      "bytes": 133067896,
-      "sha256": "289dd3924a41b53f308c7cc8b3a01ec5fd9df3803bc575faa04af2a41a36ba97",
+      "bytes": 134329874,
+      "sha256": "2aa877cd1729c045818db94ef5726eeb3fbd1fbf8112b052c4513ceb21188ec5",
       "signature": null
     },
     "darwin-x64": {
@@ -51,7 +51,7 @@
       "signature": null
     }
   },
-  "latestVersion": "0.12.83",
-  "notesUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/tag/desktop-v0.12.83",
-  "publishedAt": "2026-08-21T17:59:33Z"
+  "latestVersion": "0.12.84",
+  "notesUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/tag/desktop-v0.12.84",
+  "publishedAt": "2026-08-24T16:41:50Z"
 }
