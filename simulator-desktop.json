@@ -3,19 +3,19 @@
   "channel": "prerelease",
   "platforms": {
     "win32-x64": {
-      "version": "0.12.85",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.85/SimulatorDesktop-Setup-0.12.85-win-x64.exe",
+      "version": "0.12.86",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.86/SimulatorDesktop-Setup-0.12.86-win-x64.exe",
       "stableDownloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-Setup-win-x64.exe",
-      "bytes": 149539011,
-      "sha256": "693773075d831f7f478d0dd74acf243d2d8813423fce442f24a1e5843daad57c",
+      "bytes": 149543233,
+      "sha256": "8e4ae211c8a108e32aea7aa79dfa9a7c148b0b940b1781c1ea0b6be4c5c6a881",
       "signature": null
     },
     "win32-arm64": {
-      "version": "0.12.85",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.85/SimulatorDesktop-Setup-0.12.85-win-arm64.exe",
+      "version": "0.12.86",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.86/SimulatorDesktop-Setup-0.12.86-win-arm64.exe",
       "stableDownloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-Setup-win-arm64.exe",
-      "bytes": 147286393,
-      "sha256": "98b4f5a7f3c079f289a476f814e5bcfbd5011a31b24b2e9db9652c72c462f62a",
+      "bytes": 147291107,
+      "sha256": "77238ab269c22d219ca56667a131b8b2984c0705d3e29234976a40ae2911891f",
       "signature": null
     },
     "linux-x64": {
@@ -51,7 +51,7 @@
       "signature": null
     }
   },
-  "latestVersion": "0.12.85",
-  "notesUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/tag/desktop-v0.12.85",
-  "publishedAt": "2026-08-24T18:39:36Z"
+  "latestVersion": "0.12.86",
+  "notesUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/tag/desktop-v0.12.86",
+  "publishedAt": "2026-08-25T07:11:23Z"
 }
