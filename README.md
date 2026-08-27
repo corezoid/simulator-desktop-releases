@@ -107,7 +107,7 @@ releases here.
 | **`SHA256SUMS.sigstore.json`** | Sigstore signature of `SHA256SUMS`; verify against [`cosign.pub`](cosign.pub) |
 | **Torrents** | `.torrent` assets next to the installers they cover, with a webseed |
 | **`desktop-releases.json`** | Machine-readable manifest — see [docs/RELEASE_MANIFEST.md](docs/RELEASE_MANIFEST.md) |
-| **`simulator-desktop.json`** | The same, for the next-generation **Simulator Desktop** pre-releases |
+| **`simulator-desktop.json`** | The same, for the next-generation **Simulator Desktop** releases |
 | **Release notes** | On every release, including anything that affects installing or updating |
 | **[`CHANGELOG.md`](CHANGELOG.md)** | The same history in one file |
 | **[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)** | Licences and source offers for bundled third-party components |
@@ -137,18 +137,18 @@ them.
 ### Two applications, two tag namespaces
 
 **Simulator Desktop** — the new application, and what [Downloads](#downloads)
-offers — is tagged `desktop-v<version>` and marked as a pre-release until it is the
-recommended build for everyone. Its versions are named per platform in
+offers — is tagged `desktop-v<version>` and published as a full release: the builds
+here are the recommended ones, and `simulator-desktop.json` says `channel: stable`.
+Its versions are named per platform in
 [`simulator-desktop.json`](simulator-desktop.json).
 
 The current **Simulator.Company** application keeps `v<version>` tags and
 [`desktop-releases.json`](desktop-releases.json), untouched by any of the above. Two
 files rather than one so that nothing reading the current application's manifest is
-ever offered a pre-release of the next one.
+ever offered a build of the next one it did not ask for.
 
 **Simulator Desktop's releases carry the repository-wide *latest release* mark**
-(`make_latest: true`), even while pre-release — the opposite of what used to be true
-here. Third-party integrations need one download link that survives a version bump,
+(`make_latest: true`) — the opposite of what used to be true here. Third-party integrations need one download link that survives a version bump,
 and GitHub only offers that through `/releases/latest/download/<name>`, which
 resolves to whichever release carries this flag; there is no way to grant that link
 without also granting the mark. Simulator.Company's own "latest release" badge above
