@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "channel": "prerelease",
+  "channel": "stable",
   "platforms": {
     "win32-x64": {
       "version": "0.12.88",
