@@ -17,7 +17,7 @@ Official public releases of the **Simulator.Company desktop application** by
 > licence notices for bundled third-party components.
 
 <!-- Not a plain /releases/latest badge: that endpoint now resolves to Simulator
-     Desktop's pre-release, not this application's — Simulator Desktop needs it for a
+     Desktop's release, not this application's — Simulator Desktop needs it for a
      stable, unversioned download link (see "Two applications, two tag namespaces"
      below), and GitHub only offers that mechanism to whichever release carries the
      flag. `filter=v*` keeps this badge honest by reading only this application's own
