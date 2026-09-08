@@ -3,6 +3,317 @@
   "bundles": [
     {
       "schema": 1,
+      "bundleId": "8a39a5a5c453451d-linux-arm64",
+      "imageSetSha256": "8a39a5a5c453451d71e08abb31982dde0c29dd032dbafe0d7598dacf27825860",
+      "arch": "arm64",
+      "status": "live",
+      "publishedAt": "2026-09-08T05:42:41Z",
+      "images": [
+        "hub.corezoid.com/public/graphinstaller:1.7.1",
+        "hub.corezoid.com/public/mw-init-tools:1.0.0",
+        "hub.corezoid.com/public/postgres-postgis:17-alpine3.21-1-pgvector",
+        "hub.corezoid.com/simulator/account-auth:3.31.0",
+        "hub.corezoid.com/simulator/account-frontend:3.31.0",
+        "hub.corezoid.com/simulator/account-workspace:3.31.0",
+        "hub.corezoid.com/simulator/actorizer_cdc:fa45cb58",
+        "hub.corezoid.com/simulator/apigw-apigw:1.10.1",
+        "hub.corezoid.com/simulator/conf_agent_admin:2.6.3",
+        "hub.corezoid.com/simulator/conf_agent_server:3.0.1",
+        "hub.corezoid.com/simulator/conveyor-worker:6.0.0.2",
+        "hub.corezoid.com/simulator/conveyor_adm_web:6.13.0",
+        "hub.corezoid.com/simulator/conveyor_api:9.0.0.1-ossl3.5.8",
+        "hub.corezoid.com/simulator/conveyor_api_multipart:3.10.0.1-ossl3.5.8",
+        "hub.corezoid.com/simulator/ctrl-control-tasks:2.81.0",
+        "hub.corezoid.com/simulator/ctrl-frontend:5.171.0",
+        "hub.corezoid.com/simulator/ctrl-realtime:3.14.0",
+        "hub.corezoid.com/simulator/ctrl-server:5.171.0",
+        "hub.corezoid.com/simulator/ctrl-sim-api:0.3.0",
+        "hub.corezoid.com/simulator/ctrl-widget:v1.96.0",
+        "hub.corezoid.com/simulator/dbcall:2.6.1",
+        "hub.corezoid.com/simulator/gitcall:2.11.1",
+        "hub.corezoid.com/simulator/http-worker:5.0.0.1-ossl3.5.8",
+        "hub.corezoid.com/simulator/pg_schema:6.13.0",
+        "hub.corezoid.com/simulator/postgresql-client:16.8",
+        "hub.corezoid.com/simulator/postgresql-client@sha256:1ddf6e7c79fb1dc399ba8ffeeec72d31d79e90933ec528886de2d4572363ae5e",
+        "hub.corezoid.com/simulator/simulator-connect:1.0.7",
+        "hub.corezoid.com/simulator/usercode:9.3.1"
+      ],
+      "parts": [
+        {
+          "ref": "hub.corezoid.com/public/graphinstaller:1.7.1",
+          "name": "hub.corezoid.com_public_graphinstaller_1.7.1.tar",
+          "bytes": 20480000,
+          "sha256": "e35dbc2cd895e4c7b3077ec76f62de198a48c8594227573ea77e0191a52d69fc",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_public_graphinstaller_1.7.1.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/public/mw-init-tools:1.0.0",
+          "name": "hub.corezoid.com_public_mw-init-tools_1.0.0.tar",
+          "bytes": 696320,
+          "sha256": "fa1148b9e630470f70fb8c77e0a37da010c18a3f2cea3713ef4921f6cba73b27",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_public_mw-init-tools_1.0.0.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/public/postgres-postgis:17-alpine3.21-1-pgvector",
+          "name": "hub.corezoid.com_public_postgres-postgis_17-alpine3.21-1-pgvector.tar",
+          "bytes": 170086400,
+          "sha256": "b298cea93b9ebe48d6a3359c57507259d381e54f6d5ee4aa04fdc453b7cc7362",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_public_postgres-postgis_17-alpine3.21-1-pgvector.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/account-auth:3.31.0",
+          "name": "hub.corezoid.com_simulator_account-auth_3.31.0.tar",
+          "bytes": 56125440,
+          "sha256": "5da74a257af5f8d768b88fd80d3c0800445e369ae622b343e6b8adb7b08ec34c",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_account-auth_3.31.0.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/account-frontend:3.31.0",
+          "name": "hub.corezoid.com_simulator_account-frontend_3.31.0.tar",
+          "bytes": 31180800,
+          "sha256": "51ccac06cbe4f28b0549ed40190e6928d43a3dec5ffcf51d5ef34f5e96551b7f",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_account-frontend_3.31.0.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/account-workspace:3.31.0",
+          "name": "hub.corezoid.com_simulator_account-workspace_3.31.0.tar",
+          "bytes": 101959680,
+          "sha256": "2a99b3067ccde458b894abaf69f995e8e693fd31cbb9e4c262ba323ae9073c29",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_account-workspace_3.31.0.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/actorizer_cdc:fa45cb58",
+          "name": "hub.corezoid.com_simulator_actorizer_cdc_fa45cb58.tar",
+          "bytes": 14868480,
+          "sha256": "f5b81ed5bee202484abe5ab86913b3688773f562d6bcbe5ba1fdf2cf0d5ece9e",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_actorizer_cdc_fa45cb58.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/apigw-apigw:1.10.1",
+          "name": "hub.corezoid.com_simulator_apigw-apigw_1.10.1.tar",
+          "bytes": 9226240,
+          "sha256": "9ac9d2f73748a5d7644860c6fbdd21cc9b9c17080a86f9c0f5fb11dfcfd27f11",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_apigw-apigw_1.10.1.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/conf_agent_admin:2.6.3",
+          "name": "hub.corezoid.com_simulator_conf_agent_admin_2.6.3.tar",
+          "bytes": 25292800,
+          "sha256": "c321be3499b922512d06e06a99a403eb240e21a2b758696762390734a84a1674",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conf_agent_admin_2.6.3.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/conf_agent_server:3.0.1",
+          "name": "hub.corezoid.com_simulator_conf_agent_server_3.0.1.tar",
+          "bytes": 28692480,
+          "sha256": "b17368d57a4a2b284bf49dd5bd2bddd34d303204e6e7d743a4152ce07d039bd7",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conf_agent_server_3.0.1.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/conveyor-worker:6.0.0.2",
+          "name": "hub.corezoid.com_simulator_conveyor-worker_6.0.0.2.tar",
+          "bytes": 45363200,
+          "sha256": "8f1db2b42e281b969f4b08493dff7fedc3921e870d737805be07475c690ef332",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conveyor-worker_6.0.0.2.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/conveyor_adm_web:6.13.0",
+          "name": "hub.corezoid.com_simulator_conveyor_adm_web_6.13.0.tar",
+          "bytes": 34119680,
+          "sha256": "edbfc20ff53ed182f8aa99af7da01074a5dab4be6efd96924ee17b3bbe1b51bf",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conveyor_adm_web_6.13.0.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/conveyor_api:9.0.0.1-ossl3.5.8",
+          "name": "hub.corezoid.com_simulator_conveyor_api_9.0.0.1-ossl3.5.8.tar",
+          "bytes": 52264960,
+          "sha256": "831b7bbf77ff5976e047c8982e9157db059dbeec3f01709ad2fa2f76f1142995",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conveyor_api_9.0.0.1-ossl3.5.8.tar"
+          },
+          "torrent": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conveyor_api_9.0.0.1-ossl3.5.8.tar.torrent",
+            "name": "hub.corezoid.com_simulator_conveyor_api_9.0.0.1-ossl3.5.8.tar.torrent",
+            "available": true
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/conveyor_api_multipart:3.10.0.1-ossl3.5.8",
+          "name": "hub.corezoid.com_simulator_conveyor_api_multipart_3.10.0.1-ossl3.5.8.tar",
+          "bytes": 38707200,
+          "sha256": "5de244b9ee08ceddd94d03b28a6d0306b0d2d6c4e46c48beca753cef44f82a3e",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conveyor_api_multipart_3.10.0.1-ossl3.5.8.tar"
+          },
+          "torrent": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conveyor_api_multipart_3.10.0.1-ossl3.5.8.tar.torrent",
+            "name": "hub.corezoid.com_simulator_conveyor_api_multipart_3.10.0.1-ossl3.5.8.tar.torrent",
+            "available": true
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/ctrl-control-tasks:2.81.0",
+          "name": "hub.corezoid.com_simulator_ctrl-control-tasks_2.81.0.tar",
+          "bytes": 17059840,
+          "sha256": "3b5f2c8bfceba4527bf3bc6abbbb8850417c1a2f8d8a38d8b72ffd734fd3445a",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_ctrl-control-tasks_2.81.0.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/ctrl-frontend:5.171.0",
+          "name": "hub.corezoid.com_simulator_ctrl-frontend_5.171.0.tar",
+          "bytes": 55797760,
+          "sha256": "d5cb4992ae461f6092e5526a5d7b35ee3de26546601da86b08cd44bcba045ebf",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_ctrl-frontend_5.171.0.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/ctrl-realtime:3.14.0",
+          "name": "hub.corezoid.com_simulator_ctrl-realtime_3.14.0.tar",
+          "bytes": 20664320,
+          "sha256": "7effd96b3ad4bb8bf05573ca18c04d5ace9ef63f057b5cae186d90726d04c500",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_ctrl-realtime_3.14.0.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/ctrl-server:5.171.0",
+          "name": "hub.corezoid.com_simulator_ctrl-server_5.171.0.tar",
+          "bytes": 204113920,
+          "sha256": "c9174dcd890dac857db7ea731c9cefbe46a59f169f26521e8c3a2ec9c941ffe5",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_ctrl-server_5.171.0.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/ctrl-sim-api:0.3.0",
+          "name": "hub.corezoid.com_simulator_ctrl-sim-api_0.3.0.tar",
+          "bytes": 20715520,
+          "sha256": "290fbfe53eae8a8d21875348012e7893305c7e44a1533483a9005de540f71a4f",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_ctrl-sim-api_0.3.0.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/ctrl-widget:v1.96.0",
+          "name": "hub.corezoid.com_simulator_ctrl-widget_v1.96.0.tar",
+          "bytes": 23070720,
+          "sha256": "6f1cb42b94a96d04e1cc9ec6936e92734257ff83b5a851c4748dabb59d1885fc",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_ctrl-widget_v1.96.0.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/dbcall:2.6.1",
+          "name": "hub.corezoid.com_simulator_dbcall_2.6.1.tar",
+          "bytes": 17213440,
+          "sha256": "0524835725279cd7f866c7a205b9c1d34ff98b8e14f124d8caa277f0f300ec6c",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_dbcall_2.6.1.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/gitcall:2.11.1",
+          "name": "hub.corezoid.com_simulator_gitcall_2.11.1.tar",
+          "bytes": 28344320,
+          "sha256": "beb09d02b1288289214234848478650f927d7f0942e2aa50aa29a9eafffde097",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_gitcall_2.11.1.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/http-worker:5.0.0.1-ossl3.5.8",
+          "name": "hub.corezoid.com_simulator_http-worker_5.0.0.1-ossl3.5.8.tar",
+          "bytes": 33218560,
+          "sha256": "8206df71873d1fc295f6b507c0f17ad40496f9dec819f977efc44352edbdba5d",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_http-worker_5.0.0.1-ossl3.5.8.tar"
+          },
+          "torrent": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_http-worker_5.0.0.1-ossl3.5.8.tar.torrent",
+            "name": "hub.corezoid.com_simulator_http-worker_5.0.0.1-ossl3.5.8.tar.torrent",
+            "available": true
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/pg_schema:6.13.0",
+          "name": "hub.corezoid.com_simulator_pg_schema_6.13.0.tar",
+          "bytes": 14295040,
+          "sha256": "4674e4228a995edcaa02aafa9f2ca81e74959bfc81fe49d018cb8b6cfede3485",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_pg_schema_6.13.0.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/postgresql-client:16.8",
+          "name": "hub.corezoid.com_simulator_postgresql-client_16.8.tar",
+          "bytes": 7843840,
+          "sha256": "ab3e812bdb6a4f4d66460461db96b68b1279b6ec28c70373226fab2e7707250c",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_postgresql-client_16.8.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/postgresql-client@sha256:1ddf6e7c79fb1dc399ba8ffeeec72d31d79e90933ec528886de2d4572363ae5e",
+          "name": "hub.corezoid.com_simulator_postgresql-client_sha256_1ddf6e7c79fb1dc399ba8ffeeec72d31d79e90933ec528886de2d4572363ae5e.tar",
+          "bytes": 11407360,
+          "sha256": "5b790ce1812bfc030c0dfd37ec7d91490ce0168d0c2f0d3e636bc29785e4ac9e",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_postgresql-client_sha256_1ddf6e7c79fb1dc399ba8ffeeec72d31d79e90933ec528886de2d4572363ae5e.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/simulator-connect:1.0.7",
+          "name": "hub.corezoid.com_simulator_simulator-connect_1.0.7.tar",
+          "bytes": 7628800,
+          "sha256": "c360905d7c37e7d11c518c253afc0277fa224d13932d4beea3f79681c209f483",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_simulator-connect_1.0.7.tar"
+          }
+        },
+        {
+          "ref": "hub.corezoid.com/simulator/usercode:9.3.1",
+          "name": "hub.corezoid.com_simulator_usercode_9.3.1.tar",
+          "bytes": 50657280,
+          "sha256": "c488def95ba2250dddca1945cf3a7d5adb327b7e563ab021e8ffff7b602c2f0d",
+          "https": {
+            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_usercode_9.3.1.tar"
+          }
+        }
+      ],
+      "torrent": {
+        "url": null,
+        "available": false
+      }
+    },
+    {
+      "schema": 1,
       "bundleId": "8a39a5a5c453451d-linux-amd64",
       "imageSetSha256": "8a39a5a5c453451d71e08abb31982dde0c29dd032dbafe0d7598dacf27825860",
       "arch": "amd64",
@@ -304,442 +615,6 @@
           "sha256": "0a7b3b33e052a473c04ed40ee5a6236ac652b899e22d6ee7ccd65da960ce63f3",
           "https": {
             "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-amd64/hub.corezoid.com_simulator_usercode_9.3.1.tar"
-          }
-        }
-      ],
-      "torrent": {
-        "url": null,
-        "available": false
-      }
-    },
-    {
-      "schema": 1,
-      "bundleId": "8a39a5a5c453451d-linux-arm64",
-      "imageSetSha256": "8a39a5a5c453451d71e08abb31982dde0c29dd032dbafe0d7598dacf27825860",
-      "arch": "arm64",
-      "status": "live",
-      "publishedAt": "2026-09-06T09:14:06Z",
-      "images": [
-        "hub.corezoid.com/public/graphinstaller:1.7.1",
-        "hub.corezoid.com/public/mw-init-tools:1.0.0",
-        "hub.corezoid.com/public/postgres-postgis:17-alpine3.21-1-pgvector",
-        "hub.corezoid.com/simulator/account-auth:3.31.0",
-        "hub.corezoid.com/simulator/account-frontend:3.31.0",
-        "hub.corezoid.com/simulator/account-workspace:3.31.0",
-        "hub.corezoid.com/simulator/actorizer_cdc:fa45cb58",
-        "hub.corezoid.com/simulator/apigw-apigw:1.10.1",
-        "hub.corezoid.com/simulator/conf_agent_admin:2.6.3",
-        "hub.corezoid.com/simulator/conf_agent_server:3.0.1",
-        "hub.corezoid.com/simulator/conveyor-worker:6.0.0.2",
-        "hub.corezoid.com/simulator/conveyor_adm_web:6.13.0",
-        "hub.corezoid.com/simulator/conveyor_api:9.0.0.1-ossl3.5.8",
-        "hub.corezoid.com/simulator/conveyor_api_multipart:3.10.0.1-ossl3.5.8",
-        "hub.corezoid.com/simulator/ctrl-control-tasks:2.81.0",
-        "hub.corezoid.com/simulator/ctrl-frontend:5.171.0",
-        "hub.corezoid.com/simulator/ctrl-realtime:3.14.0",
-        "hub.corezoid.com/simulator/ctrl-server:5.171.0",
-        "hub.corezoid.com/simulator/ctrl-sim-api:0.3.0",
-        "hub.corezoid.com/simulator/ctrl-widget:v1.96.0",
-        "hub.corezoid.com/simulator/dbcall:2.6.1",
-        "hub.corezoid.com/simulator/gitcall:2.11.1",
-        "hub.corezoid.com/simulator/http-worker:5.0.0.1-ossl3.5.8",
-        "hub.corezoid.com/simulator/pg_schema:6.13.0",
-        "hub.corezoid.com/simulator/postgresql-client:16.8",
-        "hub.corezoid.com/simulator/postgresql-client@sha256:1ddf6e7c79fb1dc399ba8ffeeec72d31d79e90933ec528886de2d4572363ae5e",
-        "hub.corezoid.com/simulator/simulator-connect:1.0.7",
-        "hub.corezoid.com/simulator/usercode:9.3.1"
-      ],
-      "parts": [
-        {
-          "ref": "hub.corezoid.com/public/graphinstaller:1.7.1",
-          "name": "hub.corezoid.com_public_graphinstaller_1.7.1.tar",
-          "bytes": 20480000,
-          "sha256": "c51a02f8b91d87527e779ab5040c18930f94e9f0d90bf606981f611f9f4ae37e",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_public_graphinstaller_1.7.1.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_public_graphinstaller_1.7.1.tar.torrent",
-            "name": "hub.corezoid.com_public_graphinstaller_1.7.1.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/public/mw-init-tools:1.0.0",
-          "name": "hub.corezoid.com_public_mw-init-tools_1.0.0.tar",
-          "bytes": 696320,
-          "sha256": "58c1a5ca410a9aacf07202213436d7298863aa27f84c240d173f1bbc7ef534ef",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_public_mw-init-tools_1.0.0.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_public_mw-init-tools_1.0.0.tar.torrent",
-            "name": "hub.corezoid.com_public_mw-init-tools_1.0.0.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/public/postgres-postgis:17-alpine3.21-1-pgvector",
-          "name": "hub.corezoid.com_public_postgres-postgis_17-alpine3.21-1-pgvector.tar",
-          "bytes": 170086400,
-          "sha256": "6ad7746b39e386056c75e0b9aa3d453f72fba858e4bc5151eb239a69615fe381",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_public_postgres-postgis_17-alpine3.21-1-pgvector.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_public_postgres-postgis_17-alpine3.21-1-pgvector.tar.torrent",
-            "name": "hub.corezoid.com_public_postgres-postgis_17-alpine3.21-1-pgvector.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/account-auth:3.31.0",
-          "name": "hub.corezoid.com_simulator_account-auth_3.31.0.tar",
-          "bytes": 56125440,
-          "sha256": "b828c8a9b155e90b7b49032c4499ad24b4a0bb75f64e56ffad5c7ee24768efab",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_account-auth_3.31.0.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_account-auth_3.31.0.tar.torrent",
-            "name": "hub.corezoid.com_simulator_account-auth_3.31.0.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/account-frontend:3.31.0",
-          "name": "hub.corezoid.com_simulator_account-frontend_3.31.0.tar",
-          "bytes": 31180800,
-          "sha256": "3e91d172353b7702b36bccc0f577946107c3ee0aa24e9232e489feef37f6d082",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_account-frontend_3.31.0.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_account-frontend_3.31.0.tar.torrent",
-            "name": "hub.corezoid.com_simulator_account-frontend_3.31.0.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/account-workspace:3.31.0",
-          "name": "hub.corezoid.com_simulator_account-workspace_3.31.0.tar",
-          "bytes": 101959680,
-          "sha256": "34dd35e6eada90176b713a4e2104010639ea5d108cc1e1992c11f0df2e26a914",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_account-workspace_3.31.0.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_account-workspace_3.31.0.tar.torrent",
-            "name": "hub.corezoid.com_simulator_account-workspace_3.31.0.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/actorizer_cdc:fa45cb58",
-          "name": "hub.corezoid.com_simulator_actorizer_cdc_fa45cb58.tar",
-          "bytes": 14868480,
-          "sha256": "23b76eff5c211f3ec293aae34654e74c63945cf5963ad146c77f6614aa4fbba4",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_actorizer_cdc_fa45cb58.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_actorizer_cdc_fa45cb58.tar.torrent",
-            "name": "hub.corezoid.com_simulator_actorizer_cdc_fa45cb58.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/apigw-apigw:1.10.1",
-          "name": "hub.corezoid.com_simulator_apigw-apigw_1.10.1.tar",
-          "bytes": 9226240,
-          "sha256": "df1379de84db90074f64b5ce6697fb6c18377466411b225e35bbdc177250c9e1",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_apigw-apigw_1.10.1.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_apigw-apigw_1.10.1.tar.torrent",
-            "name": "hub.corezoid.com_simulator_apigw-apigw_1.10.1.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/conf_agent_admin:2.6.3",
-          "name": "hub.corezoid.com_simulator_conf_agent_admin_2.6.3.tar",
-          "bytes": 25292800,
-          "sha256": "ff572f4f766ceae2809c8c42e0859f6dcbc502720440019a07ce06d5f3038c4a",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conf_agent_admin_2.6.3.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conf_agent_admin_2.6.3.tar.torrent",
-            "name": "hub.corezoid.com_simulator_conf_agent_admin_2.6.3.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/conf_agent_server:3.0.1",
-          "name": "hub.corezoid.com_simulator_conf_agent_server_3.0.1.tar",
-          "bytes": 28692480,
-          "sha256": "0b251a540ed65676c52e14b8f8a5b4e46f14324aa31fb61eeaf83dea4c00d84f",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conf_agent_server_3.0.1.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conf_agent_server_3.0.1.tar.torrent",
-            "name": "hub.corezoid.com_simulator_conf_agent_server_3.0.1.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/conveyor-worker:6.0.0.2",
-          "name": "hub.corezoid.com_simulator_conveyor-worker_6.0.0.2.tar",
-          "bytes": 45363200,
-          "sha256": "cb8e794e18369a780fbe202cb8e72546bfb4ddd68a688db6c4c32fbc61ea497a",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conveyor-worker_6.0.0.2.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conveyor-worker_6.0.0.2.tar.torrent",
-            "name": "hub.corezoid.com_simulator_conveyor-worker_6.0.0.2.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/conveyor_adm_web:6.13.0",
-          "name": "hub.corezoid.com_simulator_conveyor_adm_web_6.13.0.tar",
-          "bytes": 34119680,
-          "sha256": "850ee7ecbe952e6b5341f92d9e3f84f380118ee2ff142e7a562e35dbc7152bcd",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conveyor_adm_web_6.13.0.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conveyor_adm_web_6.13.0.tar.torrent",
-            "name": "hub.corezoid.com_simulator_conveyor_adm_web_6.13.0.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/conveyor_api:9.0.0.1-ossl3.5.8",
-          "name": "hub.corezoid.com_simulator_conveyor_api_9.0.0.1-ossl3.5.8.tar",
-          "bytes": 52172800,
-          "sha256": "cfb62bffcc41e1899be537de885d7268e03509285046d2bde2f58a3326fb8637",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conveyor_api_9.0.0.1-ossl3.5.8.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conveyor_api_9.0.0.1-ossl3.5.8.tar.torrent",
-            "name": "hub.corezoid.com_simulator_conveyor_api_9.0.0.1-ossl3.5.8.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/conveyor_api_multipart:3.10.0.1-ossl3.5.8",
-          "name": "hub.corezoid.com_simulator_conveyor_api_multipart_3.10.0.1-ossl3.5.8.tar",
-          "bytes": 38615040,
-          "sha256": "7de05237e41d3de4d799d0907ba7ce34d7c2ce78c8588f3ca81bf1b3044c3649",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conveyor_api_multipart_3.10.0.1-ossl3.5.8.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_conveyor_api_multipart_3.10.0.1-ossl3.5.8.tar.torrent",
-            "name": "hub.corezoid.com_simulator_conveyor_api_multipart_3.10.0.1-ossl3.5.8.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/ctrl-control-tasks:2.81.0",
-          "name": "hub.corezoid.com_simulator_ctrl-control-tasks_2.81.0.tar",
-          "bytes": 17059840,
-          "sha256": "6ab436f6d22bbf75c48465d8936a6d8ac1a8bc979a7102624e6d3b06a951ad4e",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_ctrl-control-tasks_2.81.0.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_ctrl-control-tasks_2.81.0.tar.torrent",
-            "name": "hub.corezoid.com_simulator_ctrl-control-tasks_2.81.0.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/ctrl-frontend:5.171.0",
-          "name": "hub.corezoid.com_simulator_ctrl-frontend_5.171.0.tar",
-          "bytes": 55797760,
-          "sha256": "c3dd079f99bb3b9862586ce856288d87a8ab2ffea40aa34ffc9d0e4fcdc46227",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_ctrl-frontend_5.171.0.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_ctrl-frontend_5.171.0.tar.torrent",
-            "name": "hub.corezoid.com_simulator_ctrl-frontend_5.171.0.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/ctrl-realtime:3.14.0",
-          "name": "hub.corezoid.com_simulator_ctrl-realtime_3.14.0.tar",
-          "bytes": 20664320,
-          "sha256": "83752098330071d380940afd4e35b4e66af7993fee797478c27f72d44d8bfea4",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_ctrl-realtime_3.14.0.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_ctrl-realtime_3.14.0.tar.torrent",
-            "name": "hub.corezoid.com_simulator_ctrl-realtime_3.14.0.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/ctrl-server:5.171.0",
-          "name": "hub.corezoid.com_simulator_ctrl-server_5.171.0.tar",
-          "bytes": 204113920,
-          "sha256": "247c82e0029dab44129f9788b8b064172ce66f6f7b21e0ad26b577d0751040eb",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_ctrl-server_5.171.0.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_ctrl-server_5.171.0.tar.torrent",
-            "name": "hub.corezoid.com_simulator_ctrl-server_5.171.0.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/ctrl-sim-api:0.3.0",
-          "name": "hub.corezoid.com_simulator_ctrl-sim-api_0.3.0.tar",
-          "bytes": 20715520,
-          "sha256": "9edb9821bbb4df83876387d5f32aaa7518262ccef4f865adff183647265e1be4",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_ctrl-sim-api_0.3.0.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_ctrl-sim-api_0.3.0.tar.torrent",
-            "name": "hub.corezoid.com_simulator_ctrl-sim-api_0.3.0.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/ctrl-widget:v1.96.0",
-          "name": "hub.corezoid.com_simulator_ctrl-widget_v1.96.0.tar",
-          "bytes": 23070720,
-          "sha256": "42897d721c3f887c31feea412464873e046d770f4401ced5e394fb62831fcd62",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_ctrl-widget_v1.96.0.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_ctrl-widget_v1.96.0.tar.torrent",
-            "name": "hub.corezoid.com_simulator_ctrl-widget_v1.96.0.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/dbcall:2.6.1",
-          "name": "hub.corezoid.com_simulator_dbcall_2.6.1.tar",
-          "bytes": 17213440,
-          "sha256": "e309176fde8c53d0b77dc9842edbac67d341dc9beb8436f7a4692315bb509f11",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_dbcall_2.6.1.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_dbcall_2.6.1.tar.torrent",
-            "name": "hub.corezoid.com_simulator_dbcall_2.6.1.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/gitcall:2.11.1",
-          "name": "hub.corezoid.com_simulator_gitcall_2.11.1.tar",
-          "bytes": 28344320,
-          "sha256": "43b0c5b220b602425f007a9ab4b350b50d73945ce028a9f6d11d9a76020d1bdd",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_gitcall_2.11.1.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_gitcall_2.11.1.tar.torrent",
-            "name": "hub.corezoid.com_simulator_gitcall_2.11.1.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/http-worker:5.0.0.1-ossl3.5.8",
-          "name": "hub.corezoid.com_simulator_http-worker_5.0.0.1-ossl3.5.8.tar",
-          "bytes": 33126400,
-          "sha256": "0675271dbeea95186179483bb9755fa135492cad6526fe18ff2d928e697029d0",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_http-worker_5.0.0.1-ossl3.5.8.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_http-worker_5.0.0.1-ossl3.5.8.tar.torrent",
-            "name": "hub.corezoid.com_simulator_http-worker_5.0.0.1-ossl3.5.8.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/pg_schema:6.13.0",
-          "name": "hub.corezoid.com_simulator_pg_schema_6.13.0.tar",
-          "bytes": 14295040,
-          "sha256": "b0747a714379d29800fa38d8fee54e9021444fede3860b34a4f6bcf324b38c62",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_pg_schema_6.13.0.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_pg_schema_6.13.0.tar.torrent",
-            "name": "hub.corezoid.com_simulator_pg_schema_6.13.0.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/postgresql-client:16.8",
-          "name": "hub.corezoid.com_simulator_postgresql-client_16.8.tar",
-          "bytes": 7843840,
-          "sha256": "182aa61b7ee91dc69ebbc0b96078b671a3f93cde9d82a7c8ec45ce5eb9d96b22",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_postgresql-client_16.8.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_postgresql-client_16.8.tar.torrent",
-            "name": "hub.corezoid.com_simulator_postgresql-client_16.8.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/postgresql-client@sha256:1ddf6e7c79fb1dc399ba8ffeeec72d31d79e90933ec528886de2d4572363ae5e",
-          "name": "hub.corezoid.com_simulator_postgresql-client_sha256_1ddf6e7c79fb1dc399ba8ffeeec72d31d79e90933ec528886de2d4572363ae5e.tar",
-          "bytes": 11407360,
-          "sha256": "cd0882371517cdf76f9fdbb8f40dd867fa549bfb7c932907eb6fbbe3712ed456",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_postgresql-client_sha256_1ddf6e7c79fb1dc399ba8ffeeec72d31d79e90933ec528886de2d4572363ae5e.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_postgresql-client_sha256_1ddf6e7c79fb1dc399ba8ffeeec72d31d79e90933ec528886de2d4572363ae5e.tar.torrent",
-            "name": "hub.corezoid.com_simulator_postgresql-client_sha256_1ddf6e7c79fb1dc399ba8ffeeec72d31d79e90933ec528886de2d4572363ae5e.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/simulator-connect:1.0.7",
-          "name": "hub.corezoid.com_simulator_simulator-connect_1.0.7.tar",
-          "bytes": 7628800,
-          "sha256": "e13e9bf73c0873328a8c5f8c5fe9d5cabff7a99f88950772ea515885c4a42445",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_simulator-connect_1.0.7.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_simulator-connect_1.0.7.tar.torrent",
-            "name": "hub.corezoid.com_simulator_simulator-connect_1.0.7.tar.torrent",
-            "available": true
-          }
-        },
-        {
-          "ref": "hub.corezoid.com/simulator/usercode:9.3.1",
-          "name": "hub.corezoid.com_simulator_usercode_9.3.1.tar",
-          "bytes": 50657280,
-          "sha256": "09c95e1420b968bf562d4e26a6d521c0809348796eaf4f292b8000db9da9b75d",
-          "https": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_usercode_9.3.1.tar"
-          },
-          "torrent": {
-            "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/components-8a39a5a5c453451d-linux-arm64/hub.corezoid.com_simulator_usercode_9.3.1.tar.torrent",
-            "name": "hub.corezoid.com_simulator_usercode_9.3.1.tar.torrent",
-            "available": true
           }
         }
       ],
