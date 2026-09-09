@@ -49,14 +49,12 @@ download at full CDN speed even with no other peers online.
 | **Intel** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-mac-x64.dmg) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-mac-x64.dmg.torrent) |
 | **Apple Silicon** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-mac-arm64.dmg) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-mac-arm64.dmg.torrent) |
 
-### 🪟 Windows — v0.12.94
+### 🪟 Windows — v0.12.95
 
 | Architecture | Installer |
 |---|---|
-| **x64** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.94/SimulatorDesktop-Setup-win-x64.exe) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.94/SimulatorDesktop-Setup-win-x64.exe.torrent) |
-| **arm64** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.94/SimulatorDesktop-Setup-win-arm64.exe) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.94/SimulatorDesktop-Setup-win-arm64.exe.torrent) |
-
-_The v0.12.95 build for this platform is not published yet; these are the v0.12.94 ones._ Release notes and checksums: [desktop-v0.12.94](https://github.com/corezoid/simulator-desktop-releases/releases/tag/desktop-v0.12.94).
+| **x64** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-Setup-win-x64.exe) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-Setup-win-x64.exe.torrent) |
+| **arm64** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-Setup-win-arm64.exe) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-Setup-win-arm64.exe.torrent) |
 
 ### 🐧 Linux — v0.12.94
 
