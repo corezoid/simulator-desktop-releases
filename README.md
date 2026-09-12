@@ -42,14 +42,12 @@ download at full CDN speed even with no other peers online.
   <img src="assets/desktop-app.png" alt="Simulator Desktop — the Events screen of a workspace" width="90%">
 </p>
 
-### 🍎 macOS — v0.12.95
+### 🍎 macOS — v0.12.96
 
 | Processor | Disk image |
 |---|---|
-| **Intel** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-mac-x64.dmg) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-mac-x64.dmg.torrent) |
-| **Apple Silicon** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-mac-arm64.dmg) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-mac-arm64.dmg.torrent) |
-
-_The v0.12.96 build for this platform is not published yet; these are the v0.12.95 ones._ Release notes and checksums: [desktop-v0.12.95](https://github.com/corezoid/simulator-desktop-releases/releases/tag/desktop-v0.12.95).
+| **Intel** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.96/SimulatorDesktop-mac-x64.dmg) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.96/SimulatorDesktop-mac-x64.dmg.torrent) |
+| **Apple Silicon** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.96/SimulatorDesktop-mac-arm64.dmg) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.96/SimulatorDesktop-mac-arm64.dmg.torrent) |
 
 ### 🪟 Windows — v0.12.96
 
