@@ -37,64 +37,64 @@
       }
     },
     "linux-x64": {
-      "version": "0.12.95",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-linux-amd64.deb",
+      "version": "0.12.96",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.96/SimulatorDesktop-linux-amd64.deb",
       "stableDownloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-linux-amd64.deb",
-      "bytes": 150926674,
-      "sha256": "9f7abb7e83947c2ea16ade8e32453306c8218cae76ebbececafee78d3aa7e983",
+      "bytes": 150967896,
+      "sha256": "c24c9e0429343e1936130c7ff5dcadb2f667f107ef4e5e1cf9b0801a3b84d5fe",
       "signature": null,
       "installers": {
         "deb": {
           "name": "SimulatorDesktop-linux-amd64.deb",
-          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-linux-amd64.deb",
+          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.96/SimulatorDesktop-linux-amd64.deb",
           "stableUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-linux-amd64.deb",
-          "bytes": 150926674,
-          "sha256": "9f7abb7e83947c2ea16ade8e32453306c8218cae76ebbececafee78d3aa7e983"
+          "bytes": 150967896,
+          "sha256": "c24c9e0429343e1936130c7ff5dcadb2f667f107ef4e5e1cf9b0801a3b84d5fe"
         },
         "rpm": {
           "name": "SimulatorDesktop-linux-x86_64.rpm",
-          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-linux-x86_64.rpm",
+          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.96/SimulatorDesktop-linux-x86_64.rpm",
           "stableUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-linux-x86_64.rpm",
-          "bytes": 150897077,
-          "sha256": "1e02779ca8fd3c22144f8546c6cbe4eb45aa8a7ec6309defc4174125f797f2a9"
+          "bytes": 150917293,
+          "sha256": "b138fdde9b7fbcf00e54fc752187c72796da569e66e66cc50e2b37657b845071"
         },
         "AppImage": {
           "name": "SimulatorDesktop-linux-x86_64.AppImage",
-          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-linux-x86_64.AppImage",
+          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.96/SimulatorDesktop-linux-x86_64.AppImage",
           "stableUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-linux-x86_64.AppImage",
-          "bytes": 192197145,
-          "sha256": "16d3ab1ae83b7876bc56b7b274d84650b9065aa75baa01749d0611c34950a30b"
+          "bytes": 192246171,
+          "sha256": "3257e51f1b785b711baeecb92384849f8a5b42f541b2a13de3a92a4027afcf35"
         }
       }
     },
     "linux-arm64": {
-      "version": "0.12.95",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-linux-arm64.deb",
+      "version": "0.12.96",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.96/SimulatorDesktop-linux-arm64.deb",
       "stableDownloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-linux-arm64.deb",
-      "bytes": 139455334,
-      "sha256": "39d87364815f0b679429d5f0e3f854da70f7a114970cbe306a9e7e02b19de29a",
+      "bytes": 139467962,
+      "sha256": "2ecb150219f1af5a3c08881546a23db2b82b524cbccf769d4111f8e11c3c9b75",
       "signature": null,
       "installers": {
         "deb": {
           "name": "SimulatorDesktop-linux-arm64.deb",
-          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-linux-arm64.deb",
+          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.96/SimulatorDesktop-linux-arm64.deb",
           "stableUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-linux-arm64.deb",
-          "bytes": 139455334,
-          "sha256": "39d87364815f0b679429d5f0e3f854da70f7a114970cbe306a9e7e02b19de29a"
+          "bytes": 139467962,
+          "sha256": "2ecb150219f1af5a3c08881546a23db2b82b524cbccf769d4111f8e11c3c9b75"
         },
         "rpm": {
           "name": "SimulatorDesktop-linux-aarch64.rpm",
-          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-linux-aarch64.rpm",
+          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.96/SimulatorDesktop-linux-aarch64.rpm",
           "stableUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-linux-aarch64.rpm",
-          "bytes": 139543409,
-          "sha256": "52d48f69a5c6ba62234024c3d794e3b10d124d81e5956132e80ded8f16a0891c"
+          "bytes": 139578389,
+          "sha256": "f11867b7eafba6b714b3c281367a824796b8641079cdf79d3c868a89328b2637"
         },
         "AppImage": {
           "name": "SimulatorDesktop-linux-arm64.AppImage",
-          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.95/SimulatorDesktop-linux-arm64.AppImage",
+          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.96/SimulatorDesktop-linux-arm64.AppImage",
           "stableUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-linux-arm64.AppImage",
-          "bytes": 186163431,
-          "sha256": "9774ebf404f93166f080f41e4f3a3d61dc45a89f3dfbe209e6416641e9b0b636"
+          "bytes": 186208348,
+          "sha256": "409cf7429a231a9297ad893488b5e298385ab50860ee25f244d8ff306081a843"
         }
       }
     },
@@ -135,5 +135,5 @@
   },
   "latestVersion": "0.12.96",
   "notesUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/tag/desktop-v0.12.96",
-  "publishedAt": "2026-09-12T15:21:50Z"
+  "publishedAt": "2026-09-12T15:24:27Z"
 }
