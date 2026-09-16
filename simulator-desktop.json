@@ -99,41 +99,41 @@
       }
     },
     "darwin-x64": {
-      "version": "0.12.96",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.96/SimulatorDesktop-mac-x64.dmg",
+      "version": "0.12.101",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.101/SimulatorDesktop-mac-x64.dmg",
       "stableDownloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-mac-x64.dmg",
-      "bytes": 176718746,
-      "sha256": "baa831276aab3b6b1e7df84d1c08f6fcba58d1a81e8ad510abb1beba1dc7f39f",
+      "bytes": 176059927,
+      "sha256": "e3a2f6765de02fb02c88de372a65eff8215e3f3731bf8231bb6b067b35d14384",
       "signature": null,
       "installers": {
         "dmg": {
           "name": "SimulatorDesktop-mac-x64.dmg",
-          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.96/SimulatorDesktop-mac-x64.dmg",
+          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.101/SimulatorDesktop-mac-x64.dmg",
           "stableUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-mac-x64.dmg",
-          "bytes": 176718746,
-          "sha256": "baa831276aab3b6b1e7df84d1c08f6fcba58d1a81e8ad510abb1beba1dc7f39f"
+          "bytes": 176059927,
+          "sha256": "e3a2f6765de02fb02c88de372a65eff8215e3f3731bf8231bb6b067b35d14384"
         }
       }
     },
     "darwin-arm64": {
-      "version": "0.12.96",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.96/SimulatorDesktop-mac-arm64.dmg",
+      "version": "0.12.101",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.101/SimulatorDesktop-mac-arm64.dmg",
       "stableDownloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-mac-arm64.dmg",
-      "bytes": 165583005,
-      "sha256": "4603f07c694f9701db2af93ccbb12355862ed85de18f560d4b15f7bd1f5dc88d",
+      "bytes": 164975067,
+      "sha256": "5e35f52974d9374efe0645e9ee8ffacfa2023d4febaaeb14e6d0113a5124f29e",
       "signature": null,
       "installers": {
         "dmg": {
           "name": "SimulatorDesktop-mac-arm64.dmg",
-          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.96/SimulatorDesktop-mac-arm64.dmg",
+          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.101/SimulatorDesktop-mac-arm64.dmg",
           "stableUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-mac-arm64.dmg",
-          "bytes": 165583005,
-          "sha256": "4603f07c694f9701db2af93ccbb12355862ed85de18f560d4b15f7bd1f5dc88d"
+          "bytes": 164975067,
+          "sha256": "5e35f52974d9374efe0645e9ee8ffacfa2023d4febaaeb14e6d0113a5124f29e"
         }
       }
     }
   },
-  "latestVersion": "0.12.99",
-  "notesUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/tag/desktop-v0.12.99",
-  "publishedAt": "2026-09-16T14:19:46Z"
+  "latestVersion": "0.12.101",
+  "notesUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/tag/desktop-v0.12.101",
+  "publishedAt": "2026-09-16T15:11:32Z"
 }
