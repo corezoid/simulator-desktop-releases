@@ -60,10 +60,10 @@ _The v0.12.103 build for this platform is not published yet; these are the v0.12
 
 ### 🐧 Linux — v0.12.103
 
-| Architecture | deb | rpm |
-|---|---|---|
-| **x64** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.103/SimulatorDesktop-linux-amd64.deb) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.103/SimulatorDesktop-linux-amd64.deb.torrent) | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.103/SimulatorDesktop-linux-x86_64.rpm) |
-| **arm64** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.103/SimulatorDesktop-linux-arm64.deb) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.103/SimulatorDesktop-linux-arm64.deb.torrent) | — |
+| Architecture | deb | rpm | AppImage |
+|---|---|---|---|
+| **x64** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.103/SimulatorDesktop-linux-amd64.deb) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.103/SimulatorDesktop-linux-amd64.deb.torrent) | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.103/SimulatorDesktop-linux-x86_64.rpm) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.103/SimulatorDesktop-linux-x86_64.rpm.torrent) | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.103/SimulatorDesktop-linux-x86_64.AppImage) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.103/SimulatorDesktop-linux-x86_64.AppImage.torrent) |
+| **arm64** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.103/SimulatorDesktop-linux-arm64.deb) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.103/SimulatorDesktop-linux-arm64.deb.torrent) | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.103/SimulatorDesktop-linux-aarch64.rpm) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.103/SimulatorDesktop-linux-aarch64.rpm.torrent) | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.103/SimulatorDesktop-linux-arm64.AppImage) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.103/SimulatorDesktop-linux-arm64.AppImage.torrent) |
 
 Release notes and every checksum: [desktop-v0.12.103](https://github.com/corezoid/simulator-desktop-releases/releases/tag/desktop-v0.12.103).
 <!-- desktop-downloads:end -->
