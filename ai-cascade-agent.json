@@ -2,6 +2,13 @@
   "schema": 1,
   "app": "ai-cascade-agent",
   "platforms": {
+    "linux-x64": {
+      "version": "0.1.0",
+      "tag": "agent-v0.1.0",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/agent-v0.1.0/AI-Cascade-linux-x64.tar.gz",
+      "bytes": 12889459,
+      "sha256": "e489a86e10d42aa3d4b5b57f37b0c7f5c567b8343556b5b419a07127bdca4666"
+    },
     "win32-arm64": {
       "version": "0.1.0",
       "tag": "agent-v0.1.0",
