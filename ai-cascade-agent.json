@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "app": "ai-cascade-agent",
+  "platforms": {
+    "win32-arm64": {
+      "version": "0.1.0",
+      "tag": "agent-v0.1.0",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/agent-v0.1.0/AI-Cascade-win-arm64.zip",
+      "bytes": 11057246,
+      "sha256": "6cc9283d42f1f2b3e157b32f154da3e70804393c2485323649dbe5612f3bdec3"
+    },
+    "win32-x64": {
+      "version": "0.1.0",
+      "tag": "agent-v0.1.0",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/agent-v0.1.0/AI-Cascade-win-x64.zip",
+      "bytes": 11907607,
+      "sha256": "18d8b7c2f8d52e9a3a3a1b82bf384adbf3eee1c52299d71db7c8410eaf08850c"
+    }
+  }
+}
