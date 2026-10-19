@@ -3,18 +3,18 @@
   "app": "ai-cascade-agent",
   "platforms": {
     "darwin-arm64": {
-      "version": "0.1.2",
-      "tag": "agent-v0.1.2",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/agent-v0.1.2/AI-Cascade-mac-arm64.zip",
-      "bytes": 11059939,
-      "sha256": "cd798b49774246e450e59263e0e9af03c7cfee373e54c8340c7b686bc3516332"
+      "version": "0.1.3",
+      "tag": "agent-v0.1.3",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/agent-v0.1.3/AI-Cascade-mac-arm64.zip",
+      "bytes": 11060893,
+      "sha256": "63dd07b98b9312b811f72fc4628cc77e62876214df2a95381fffb580621e564e"
     },
     "darwin-x64": {
-      "version": "0.1.2",
-      "tag": "agent-v0.1.2",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/agent-v0.1.2/AI-Cascade-mac-x64.zip",
-      "bytes": 12163960,
-      "sha256": "a88449b7290024e22523c7f7fdbd70cbfd9a6b0a193e8198b2b6cfa32fff1a94"
+      "version": "0.1.3",
+      "tag": "agent-v0.1.3",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/agent-v0.1.3/AI-Cascade-mac-x64.zip",
+      "bytes": 12164279,
+      "sha256": "0d49f90cc81b50e62f982051d4e4cc9a5d5a8bcb315ee306a9e23c4be79fae30"
     },
     "linux-x64": {
       "version": "0.1.3",
