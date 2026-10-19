@@ -17,11 +17,11 @@
       "sha256": "a88449b7290024e22523c7f7fdbd70cbfd9a6b0a193e8198b2b6cfa32fff1a94"
     },
     "linux-x64": {
-      "version": "0.1.2",
-      "tag": "agent-v0.1.2",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/agent-v0.1.2/AI-Cascade-linux-x64.tar.gz",
-      "bytes": 12893070,
-      "sha256": "ed334e51562d5e01b4ec875b919ca886813bf4f83485bc167e86bc45ba6ef7f0"
+      "version": "0.1.3",
+      "tag": "agent-v0.1.3",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/agent-v0.1.3/AI-Cascade-linux-x64.tar.gz",
+      "bytes": 12893365,
+      "sha256": "1b8fce1756a39b6727d7d6d18ddb3c100534d581c23269564a44f2c319332d6d"
     },
     "win32-arm64": {
       "version": "0.1.3",
