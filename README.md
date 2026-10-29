@@ -49,23 +49,19 @@ download at full CDN speed even with no other peers online.
 | **Intel** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.125/SimulatorDesktop-mac-x64.dmg) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.125/SimulatorDesktop-mac-x64.dmg.torrent) |
 | **Apple Silicon** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.125/SimulatorDesktop-mac-arm64.dmg) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.125/SimulatorDesktop-mac-arm64.dmg.torrent) |
 
-### 🪟 Windows — v0.12.123
+### 🪟 Windows — v0.12.125
 
 | Architecture | Installer |
 |---|---|
-| **x64** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.123/SimulatorDesktop-Setup-win-x64.exe) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.123/SimulatorDesktop-Setup-win-x64.exe.torrent) |
-| **arm64** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.123/SimulatorDesktop-Setup-win-arm64.exe) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.123/SimulatorDesktop-Setup-win-arm64.exe.torrent) |
+| **x64** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.125/SimulatorDesktop-Setup-win-x64.exe) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.125/SimulatorDesktop-Setup-win-x64.exe.torrent) |
+| **arm64** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.125/SimulatorDesktop-Setup-win-arm64.exe) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.125/SimulatorDesktop-Setup-win-arm64.exe.torrent) |
 
-_The v0.12.125 build for this platform is not published yet; these are the v0.12.123 ones._ Release notes and checksums: [desktop-v0.12.123](https://github.com/corezoid/simulator-desktop-releases/releases/tag/desktop-v0.12.123).
+### 🐧 Linux — v0.12.125
 
-### 🐧 Linux — v0.12.123
-
-| Architecture | deb | rpm | AppImage |
-|---|---|---|---|
-| **x64** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.123/SimulatorDesktop-linux-amd64.deb) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.123/SimulatorDesktop-linux-amd64.deb.torrent) | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.123/SimulatorDesktop-linux-x86_64.rpm) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.123/SimulatorDesktop-linux-x86_64.rpm.torrent) | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.123/SimulatorDesktop-linux-x86_64.AppImage) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.123/SimulatorDesktop-linux-x86_64.AppImage.torrent) |
-| **arm64** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.123/SimulatorDesktop-linux-arm64.deb) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.123/SimulatorDesktop-linux-arm64.deb.torrent) | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.123/SimulatorDesktop-linux-aarch64.rpm) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.123/SimulatorDesktop-linux-aarch64.rpm.torrent) | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.123/SimulatorDesktop-linux-arm64.AppImage) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.123/SimulatorDesktop-linux-arm64.AppImage.torrent) |
-
-_The v0.12.125 build for this platform is not published yet; these are the v0.12.123 ones._ Release notes and checksums: [desktop-v0.12.123](https://github.com/corezoid/simulator-desktop-releases/releases/tag/desktop-v0.12.123).
+| Architecture | deb | rpm |
+|---|---|---|
+| **x64** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.125/SimulatorDesktop-linux-amd64.deb) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.125/SimulatorDesktop-linux-amd64.deb.torrent) | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.125/SimulatorDesktop-linux-x86_64.rpm) |
+| **arm64** | [Download](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.125/SimulatorDesktop-linux-arm64.deb) · [torrent](https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.125/SimulatorDesktop-linux-arm64.deb.torrent) | — |
 
 Release notes and every checksum: [desktop-v0.12.125](https://github.com/corezoid/simulator-desktop-releases/releases/tag/desktop-v0.12.125).
 <!-- desktop-downloads:end -->
