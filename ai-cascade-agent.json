@@ -24,18 +24,18 @@
       "sha256": "cb3e114818785cbff2a6f8b1dfc816aa0f7cd65921a01747bc8d8b3f24b7926a"
     },
     "win32-arm64": {
-      "version": "0.1.11",
-      "tag": "agent-v0.1.11",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/agent-v0.1.11/AI-Cascade-win-arm64.zip",
-      "bytes": 11091285,
-      "sha256": "cdaf0cf1f9b8afff2d9bcf4f3301c3ee9f15944bb49d316f76fd01d701de618b"
+      "version": "0.1.12",
+      "tag": "agent-v0.1.12",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/agent-v0.1.12/AI-Cascade-win-arm64.zip",
+      "bytes": 11092063,
+      "sha256": "589e9fda6edef5a3bb3ac03bc34a0f11f099804731cab8c80728626cda1b7812"
     },
     "win32-x64": {
-      "version": "0.1.11",
-      "tag": "agent-v0.1.11",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/agent-v0.1.11/AI-Cascade-win-x64.zip",
-      "bytes": 11947780,
-      "sha256": "0722fdb87c24197c0487fc6b9db595b6e613c8c81f02fb22891ad70d4fc420f4"
+      "version": "0.1.12",
+      "tag": "agent-v0.1.12",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/agent-v0.1.12/AI-Cascade-win-x64.zip",
+      "bytes": 11949161,
+      "sha256": "e9f7f2b3c4fc9493bf3ed686a5c7fb02a0c06528a84a912093c5c14e5d927dd4"
     }
   }
 }
