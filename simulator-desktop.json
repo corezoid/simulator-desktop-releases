@@ -3,36 +3,36 @@
   "channel": "stable",
   "platforms": {
     "win32-x64": {
-      "version": "0.12.133",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.133/SimulatorDesktop-Setup-win-x64.exe",
+      "version": "0.12.134",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.134/SimulatorDesktop-Setup-win-x64.exe",
       "stableDownloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-Setup-win-x64.exe",
-      "bytes": 160471736,
-      "sha256": "729ca20be524761710af20fec3388d1f749b2e0f078ff71434d8e4b9babcdd39",
+      "bytes": 160473640,
+      "sha256": "b3958d0731f6d59090e088126a1e49d18163885bd923e1e84d705c8ab1a653b4",
       "signature": null,
       "installers": {
         "exe": {
           "name": "SimulatorDesktop-Setup-win-x64.exe",
-          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.133/SimulatorDesktop-Setup-win-x64.exe",
+          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.134/SimulatorDesktop-Setup-win-x64.exe",
           "stableUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-Setup-win-x64.exe",
-          "bytes": 160471736,
-          "sha256": "729ca20be524761710af20fec3388d1f749b2e0f078ff71434d8e4b9babcdd39"
+          "bytes": 160473640,
+          "sha256": "b3958d0731f6d59090e088126a1e49d18163885bd923e1e84d705c8ab1a653b4"
         }
       }
     },
     "win32-arm64": {
-      "version": "0.12.133",
-      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.133/SimulatorDesktop-Setup-win-arm64.exe",
+      "version": "0.12.134",
+      "downloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.134/SimulatorDesktop-Setup-win-arm64.exe",
       "stableDownloadUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-Setup-win-arm64.exe",
-      "bytes": 154643968,
-      "sha256": "0f9436c727b0ff06c6509cad2272ddf0cce29253b946d72745360de6bc27d5f7",
+      "bytes": 154645776,
+      "sha256": "2de1d7be97615b98b7c988ed732e5e36610d743047a315230a8a85e9d5af321a",
       "signature": null,
       "installers": {
         "exe": {
           "name": "SimulatorDesktop-Setup-win-arm64.exe",
-          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.133/SimulatorDesktop-Setup-win-arm64.exe",
+          "url": "https://github.com/corezoid/simulator-desktop-releases/releases/download/desktop-v0.12.134/SimulatorDesktop-Setup-win-arm64.exe",
           "stableUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/latest/download/SimulatorDesktop-Setup-win-arm64.exe",
-          "bytes": 154643968,
-          "sha256": "0f9436c727b0ff06c6509cad2272ddf0cce29253b946d72745360de6bc27d5f7"
+          "bytes": 154645776,
+          "sha256": "2de1d7be97615b98b7c988ed732e5e36610d743047a315230a8a85e9d5af321a"
         }
       }
     },
@@ -135,5 +135,5 @@
   },
   "latestVersion": "0.12.134",
   "notesUrl": "https://github.com/corezoid/simulator-desktop-releases/releases/tag/desktop-v0.12.134",
-  "publishedAt": "2026-11-16T21:25:57Z"
+  "publishedAt": "2026-11-16T21:30:37Z"
 }
